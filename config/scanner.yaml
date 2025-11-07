@@ -74,6 +74,21 @@ payable_tags:
   - "open-redirect"
 
 # ==============================
+# User-Agent rotation (random per request, H1-safe)
+# ==============================
+user_agents:
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0"
+  - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/121.0"
+
+# ==============================
+# Bug bounty header (signals H1 compliance)
+# ==============================
+bug_bounty_header: "h1/icarus-_-"
+
+# ==============================
 # ALERTS
 # ==============================
 ntfy_server: "https://ntfy.sh"
@@ -83,4 +98,4 @@ ntfy_topic: "icarus_bounty_alerts"
 # OUTPUT
 # ==============================
 report_template: "templates/report.md.j2"
-screenshot: true
+screenshot: false
