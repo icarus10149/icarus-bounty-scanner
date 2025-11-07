@@ -1,0 +1,346 @@
+2025-11-07 15:43:17,982 INFO icarus ICARUS BOUNTY SCANNER STARTED | BASE_DIR=/root/icarus-bounty-scanner
+2025-11-07 15:43:17,984 INFO icarus Config loaded successfully
+2025-11-07 15:47:34,723 INFO icarus ICARUS BOUNTY SCANNER STARTED | BASE_DIR=/root/icarus-bounty-scanner
+2025-11-07 15:47:34,727 INFO icarus Config loaded successfully
+2025-11-07 15:47:34,768 INFO src.scanner.loader MANUAL RUN: Using manual_targets from config
+2025-11-07 15:47:34,768 INFO icarus Starting scan batch for 3 programs
+2025-11-07 15:47:35,524 INFO icarus.bbot [test-small] Starting scan on 1 target(s) @ 5.0 RPS
+2025-11-07 15:47:35,550 HUGEINFO bbot.scanner Scan seeded with 1 targets (1 in whitelist)
+2025-11-07 15:47:35,551 WARNING bbot.scanner No scan modules to load
+2025-11-07 15:47:35,560 DEBUG filelock Attempting to acquire lock 126804886325344 on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2025-11-07 15:47:35,560 DEBUG filelock Lock 126804886325344 acquired on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2025-11-07 15:47:35,560 DEBUG filelock Attempting to acquire lock 126804886368576 on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/urls/62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2025-11-07 15:47:35,560 DEBUG filelock Lock 126804886368576 acquired on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/urls/62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2025-11-07 15:47:35,561 DEBUG urllib3.connectionpool Starting new HTTPS connection (1): publicsuffix.org:443
+2025-11-07 15:47:35,614 DEBUG urllib3.connectionpool https://publicsuffix.org:443 "GET /list/public_suffix_list.dat HTTP/1.1" 200 88359
+2025-11-07 15:47:35,635 DEBUG filelock Attempting to release lock 126804886368576 on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/urls/62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2025-11-07 15:47:35,635 DEBUG filelock Lock 126804886368576 released on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/urls/62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2025-11-07 15:47:35,643 DEBUG filelock Attempting to release lock 126804886325344 on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2025-11-07 15:47:35,644 DEBUG filelock Lock 126804886325344 released on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2025-11-07 15:47:35,693 INFO bbot.scanner Loaded 6/6 internal modules (aggregate,cloudcheck,dnsresolve,excavate,speculate,unarchive)
+2025-11-07 15:47:35,695 INFO bbot.scanner Loaded 4/4 output modules, (csv,json,python,txt)
+2025-11-07 15:47:36,029 INFO icarus.bbot [test-small] Starting scan on 1 target(s) @ 5.0 RPS
+2025-11-07 15:47:36,048 HUGEINFO bbot.scanner Scan seeded with 1 targets (1 in whitelist)
+2025-11-07 15:47:36,049 WARNING bbot.scanner No scan modules to load
+2025-11-07 15:47:36,093 INFO bbot.scanner Loaded 6/6 internal modules (aggregate,cloudcheck,dnsresolve,excavate,speculate,unarchive)
+2025-11-07 15:47:36,095 INFO bbot.scanner Loaded 4/4 output modules, (csv,json,python,txt)
+2025-11-07 15:47:36,516 INFO icarus.bbot [test-medium] Starting scan on 1 target(s) @ 5.0 RPS
+2025-11-07 15:47:36,540 HUGEINFO bbot.scanner Scan seeded with 1 targets (1 in whitelist)
+2025-11-07 15:47:36,540 WARNING bbot.scanner No scan modules to load
+2025-11-07 15:47:36,564 INFO bbot.scanner Loaded 6/6 internal modules (aggregate,cloudcheck,dnsresolve,excavate,speculate,unarchive)
+2025-11-07 15:47:36,566 INFO bbot.scanner Loaded 4/4 output modules, (csv,json,python,txt)
+2025-11-07 15:47:36,939 INFO icarus.bbot [test-medium] Starting scan on 1 target(s) @ 5.0 RPS
+2025-11-07 15:47:36,961 HUGEINFO bbot.scanner Scan seeded with 1 targets (1 in whitelist)
+2025-11-07 15:47:36,961 WARNING bbot.scanner No scan modules to load
+2025-11-07 15:47:36,983 INFO bbot.scanner Loaded 6/6 internal modules (aggregate,cloudcheck,dnsresolve,excavate,speculate,unarchive)
+2025-11-07 15:47:36,985 INFO bbot.scanner Loaded 4/4 output modules, (csv,json,python,txt)
+2025-11-07 15:47:37,355 INFO icarus.bbot [test-nuclei] Starting scan on 1 target(s) @ 5.0 RPS
+2025-11-07 15:47:37,378 HUGEINFO bbot.scanner Scan seeded with 1 targets (1 in whitelist)
+2025-11-07 15:47:37,378 WARNING bbot.scanner No scan modules to load
+2025-11-07 15:47:37,402 INFO bbot.scanner Loaded 6/6 internal modules (aggregate,cloudcheck,dnsresolve,excavate,speculate,unarchive)
+2025-11-07 15:47:37,404 INFO bbot.scanner Loaded 4/4 output modules, (csv,json,python,txt)
+2025-11-07 15:47:37,434 INFO bbot.modules.internal.speculate No portscanner enabled. Assuming open ports: 80, 443
+2025-11-07 15:47:37,453 INFO bbot.modules.internal.speculate No portscanner enabled. Assuming open ports: 80, 443
+2025-11-07 15:47:37,476 INFO bbot.modules.internal.speculate No portscanner enabled. Assuming open ports: 80, 443
+2025-11-07 15:47:37,496 INFO bbot.modules.internal.speculate No portscanner enabled. Assuming open ports: 80, 443
+2025-11-07 15:47:37,529 INFO bbot.modules.internal.speculate No portscanner enabled. Assuming open ports: 80, 443
+2025-11-07 15:47:37,530 DEBUG httpcore.connection connect_tcp.started host='raw.githubusercontent.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-11-07 15:47:37,532 DEBUG httpcore.connection connect_tcp.started host='raw.githubusercontent.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-11-07 15:47:37,533 DEBUG httpcore.connection connect_tcp.started host='raw.githubusercontent.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-11-07 15:47:37,533 DEBUG httpcore.connection connect_tcp.started host='raw.githubusercontent.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-11-07 15:47:37,534 DEBUG httpcore.connection connect_tcp.started host='raw.githubusercontent.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-11-07 15:47:37,537 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x735402371790>
+2025-11-07 15:47:37,537 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x7354022b70d0> server_hostname='raw.githubusercontent.com' timeout=5.0
+2025-11-07 15:47:37,537 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x735403273800>
+2025-11-07 15:47:37,537 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x7354023db350> server_hostname='raw.githubusercontent.com' timeout=5.0
+2025-11-07 15:47:37,538 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x735402354680>
+2025-11-07 15:47:37,538 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x7354023dac50> server_hostname='raw.githubusercontent.com' timeout=5.0
+2025-11-07 15:47:37,538 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x735402371d00>
+2025-11-07 15:47:37,538 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x7354022b77d0> server_hostname='raw.githubusercontent.com' timeout=5.0
+2025-11-07 15:47:37,539 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x735402372270>
+2025-11-07 15:47:37,539 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x7354022b7dd0> server_hostname='raw.githubusercontent.com' timeout=5.0
+2025-11-07 15:47:37,540 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x735402f4fbf0>
+2025-11-07 15:47:37,540 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2025-11-07 15:47:37,541 DEBUG httpcore.http11 send_request_headers.complete
+2025-11-07 15:47:37,541 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2025-11-07 15:47:37,541 DEBUG httpcore.http11 send_request_body.complete
+2025-11-07 15:47:37,541 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2025-11-07 15:47:37,542 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x735402fc9ca0>
+2025-11-07 15:47:37,542 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2025-11-07 15:47:37,543 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x735403070590>
+2025-11-07 15:47:37,544 DEBUG httpcore.http11 send_request_headers.complete
+2025-11-07 15:47:37,544 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2025-11-07 15:47:37,544 DEBUG httpcore.http11 send_request_body.complete
+2025-11-07 15:47:37,544 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2025-11-07 15:47:37,545 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2025-11-07 15:47:37,545 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7354023305c0>
+2025-11-07 15:47:37,545 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x735402354bc0>
+2025-11-07 15:47:37,545 DEBUG httpcore.http11 send_request_headers.complete
+2025-11-07 15:47:37,545 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2025-11-07 15:47:37,545 DEBUG httpcore.http11 send_request_body.complete
+2025-11-07 15:47:37,545 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2025-11-07 15:47:37,546 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2025-11-07 15:47:37,546 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2025-11-07 15:47:37,546 DEBUG httpcore.http11 send_request_headers.complete
+2025-11-07 15:47:37,546 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2025-11-07 15:47:37,546 DEBUG httpcore.http11 send_request_body.complete
+2025-11-07 15:47:37,546 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2025-11-07 15:47:37,546 DEBUG httpcore.http11 send_request_headers.complete
+2025-11-07 15:47:37,546 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2025-11-07 15:47:37,546 DEBUG httpcore.http11 send_request_body.complete
+2025-11-07 15:47:37,547 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2025-11-07 15:47:37,720 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Connection', b'keep-alive'), (b'Content-Length', b'125724'), (b'Cache-Control', b'max-age=300'), (b'Content-Security-Policy', b"default-src 'none'; style-src 'unsafe-inline'; sandbox"), (b'Content-Type', b'text/plain; charset=utf-8'), (b'ETag', b'W/"e2694b3bf0e6eeac22be1f92b10b99f7a7f43205f9a843451d3539a6932ad937"'), (b'Strict-Transport-Security', b'max-age=31536000'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'deny'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-GitHub-Request-Id', b'778F:1CDA22:40C86E:475EC9:690E0688'), (b'Content-Encoding', b'gzip'), (b'Accept-Ranges', b'bytes'), (b'Date', b'Fri, 07 Nov 2025 14:47:37 GMT'), (b'Via', b'1.1 varnish'), (b'X-Served-By', b'cache-stl760050-STL'), (b'X-Cache', b'MISS'), (b'X-Cache-Hits', b'0'), (b'X-Timer', b'S1762526858.542057,VS0,VE178'), (b'Vary', b'Authorization,Accept-Encoding'), (b'Access-Control-Allow-Origin', b'*'), (b'Cross-Origin-Resource-Policy', b'cross-origin'), (b'X-Fastly-Request-ID', b'dab1429b15c071727a0e0c8620fa24d925137bd2'), (b'Expires', b'Fri, 07 Nov 2025 14:52:37 GMT'), (b'Source-Age', b'0')])
+2025-11-07 15:47:37,721 INFO httpx HTTP Request: GET https://raw.githubusercontent.com/blacklanternsecurity/cloudcheck/master/cloud_providers.json "HTTP/1.1 200 OK"
+2025-11-07 15:47:37,722 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2025-11-07 15:47:37,725 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Connection', b'keep-alive'), (b'Content-Length', b'125724'), (b'Cache-Control', b'max-age=300'), (b'Content-Security-Policy', b"default-src 'none'; style-src 'unsafe-inline'; sandbox"), (b'Content-Type', b'text/plain; charset=utf-8'), (b'ETag', b'W/"e2694b3bf0e6eeac22be1f92b10b99f7a7f43205f9a843451d3539a6932ad937"'), (b'Strict-Transport-Security', b'max-age=31536000'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'deny'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-GitHub-Request-Id', b'778F:1CDA22:40C86E:475EC9:690E0688'), (b'Content-Encoding', b'gzip'), (b'Accept-Ranges', b'bytes'), (b'Date', b'Fri, 07 Nov 2025 14:47:37 GMT'), (b'Via', b'1.1 varnish'), (b'X-Served-By', b'cache-stl760070-STL'), (b'X-Cache', b'HIT'), (b'X-Cache-Hits', b'1'), (b'X-Timer', b'S1762526858.547293,VS0,VE173'), (b'Vary', b'Authorization,Accept-Encoding'), (b'Access-Control-Allow-Origin', b'*'), (b'Cross-Origin-Resource-Policy', b'cross-origin'), (b'X-Fastly-Request-ID', b'9d5210d5b5a3c01e66ea63027cb1d91b03964a1f'), (b'Expires', b'Fri, 07 Nov 2025 14:52:37 GMT'), (b'Source-Age', b'0')])
+2025-11-07 15:47:37,725 INFO httpx HTTP Request: GET https://raw.githubusercontent.com/blacklanternsecurity/cloudcheck/master/cloud_providers.json "HTTP/1.1 200 OK"
+2025-11-07 15:47:37,726 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2025-11-07 15:47:37,729 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Connection', b'keep-alive'), (b'Content-Length', b'125724'), (b'Cache-Control', b'max-age=300'), (b'Content-Security-Policy', b"default-src 'none'; style-src 'unsafe-inline'; sandbox"), (b'Content-Type', b'text/plain; charset=utf-8'), (b'ETag', b'W/"e2694b3bf0e6eeac22be1f92b10b99f7a7f43205f9a843451d3539a6932ad937"'), (b'Strict-Transport-Security', b'max-age=31536000'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'deny'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-GitHub-Request-Id', b'778F:1CDA22:40C86E:475EC9:690E0688'), (b'Content-Encoding', b'gzip'), (b'Accept-Ranges', b'bytes'), (b'Date', b'Fri, 07 Nov 2025 14:47:37 GMT'), (b'Via', b'1.1 varnish'), (b'X-Served-By', b'cache-stl760068-STL'), (b'X-Cache', b'HIT'), (b'X-Cache-Hits', b'1'), (b'X-Timer', b'S1762526858.546936,VS0,VE173'), (b'Vary', b'Authorization,Accept-Encoding'), (b'Access-Control-Allow-Origin', b'*'), (b'Cross-Origin-Resource-Policy', b'cross-origin'), (b'X-Fastly-Request-ID', b'68400ea37539ca370a6ff518610b6034f83e10e9'), (b'Expires', b'Fri, 07 Nov 2025 14:52:37 GMT'), (b'Source-Age', b'0')])
+2025-11-07 15:47:37,729 INFO httpx HTTP Request: GET https://raw.githubusercontent.com/blacklanternsecurity/cloudcheck/master/cloud_providers.json "HTTP/1.1 200 OK"
+2025-11-07 15:47:37,729 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2025-11-07 15:47:37,731 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Connection', b'keep-alive'), (b'Content-Length', b'125724'), (b'Cache-Control', b'max-age=300'), (b'Content-Security-Policy', b"default-src 'none'; style-src 'unsafe-inline'; sandbox"), (b'Content-Type', b'text/plain; charset=utf-8'), (b'ETag', b'W/"e2694b3bf0e6eeac22be1f92b10b99f7a7f43205f9a843451d3539a6932ad937"'), (b'Strict-Transport-Security', b'max-age=31536000'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'deny'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-GitHub-Request-Id', b'778F:1CDA22:40C86E:475EC9:690E0688'), (b'Content-Encoding', b'gzip'), (b'Accept-Ranges', b'bytes'), (b'Date', b'Fri, 07 Nov 2025 14:47:37 GMT'), (b'Via', b'1.1 varnish'), (b'X-Served-By', b'cache-stl760048-STL'), (b'X-Cache', b'HIT'), (b'X-Cache-Hits', b'1'), (b'X-Timer', b'S1762526858.545208,VS0,VE176'), (b'Vary', b'Authorization,Accept-Encoding'), (b'Access-Control-Allow-Origin', b'*'), (b'Cross-Origin-Resource-Policy', b'cross-origin'), (b'X-Fastly-Request-ID', b'6e190bbadcedca40062d10b443e9609ab8f08c8b'), (b'Expires', b'Fri, 07 Nov 2025 14:52:37 GMT'), (b'Source-Age', b'0')])
+2025-11-07 15:47:37,731 INFO httpx HTTP Request: GET https://raw.githubusercontent.com/blacklanternsecurity/cloudcheck/master/cloud_providers.json "HTTP/1.1 200 OK"
+2025-11-07 15:47:37,731 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2025-11-07 15:47:37,734 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Connection', b'keep-alive'), (b'Content-Length', b'125724'), (b'Cache-Control', b'max-age=300'), (b'Content-Security-Policy', b"default-src 'none'; style-src 'unsafe-inline'; sandbox"), (b'Content-Type', b'text/plain; charset=utf-8'), (b'ETag', b'W/"e2694b3bf0e6eeac22be1f92b10b99f7a7f43205f9a843451d3539a6932ad937"'), (b'Strict-Transport-Security', b'max-age=31536000'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'deny'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-GitHub-Request-Id', b'778F:1CDA22:40C86E:475EC9:690E0688'), (b'Content-Encoding', b'gzip'), (b'Accept-Ranges', b'bytes'), (b'Date', b'Fri, 07 Nov 2025 14:47:37 GMT'), (b'Via', b'1.1 varnish'), (b'X-Served-By', b'cache-stl760066-STL'), (b'X-Cache', b'HIT'), (b'X-Cache-Hits', b'1'), (b'X-Timer', b'S1762526858.546381,VS0,VE180'), (b'Vary', b'Authorization,Accept-Encoding'), (b'Access-Control-Allow-Origin', b'*'), (b'Cross-Origin-Resource-Policy', b'cross-origin'), (b'X-Fastly-Request-ID', b'92f2ef8e591e718671231bf0e8313e9979f902e8'), (b'Expires', b'Fri, 07 Nov 2025 14:52:37 GMT'), (b'Source-Age', b'0')])
+2025-11-07 15:47:37,735 INFO httpx HTTP Request: GET https://raw.githubusercontent.com/blacklanternsecurity/cloudcheck/master/cloud_providers.json "HTTP/1.1 200 OK"
+2025-11-07 15:47:37,735 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2025-11-07 15:47:37,745 DEBUG httpcore.http11 receive_response_body.complete
+2025-11-07 15:47:37,745 DEBUG httpcore.http11 response_closed.started
+2025-11-07 15:47:37,745 DEBUG httpcore.http11 receive_response_body.complete
+2025-11-07 15:47:37,745 DEBUG httpcore.http11 response_closed.started
+2025-11-07 15:47:37,746 DEBUG httpcore.http11 receive_response_body.complete
+2025-11-07 15:47:37,746 DEBUG httpcore.http11 response_closed.started
+2025-11-07 15:47:37,746 DEBUG httpcore.http11 receive_response_body.complete
+2025-11-07 15:47:37,746 DEBUG httpcore.http11 response_closed.started
+2025-11-07 15:47:37,746 DEBUG httpcore.http11 response_closed.complete
+2025-11-07 15:47:37,749 DEBUG httpcore.connection close.started
+2025-11-07 15:47:37,749 DEBUG httpcore.http11 response_closed.complete
+2025-11-07 15:47:37,752 DEBUG httpcore.connection close.started
+2025-11-07 15:47:37,752 DEBUG httpcore.http11 response_closed.complete
+2025-11-07 15:47:37,754 DEBUG httpcore.connection close.started
+2025-11-07 15:47:37,754 DEBUG httpcore.http11 response_closed.complete
+2025-11-07 15:47:37,756 DEBUG httpcore.connection close.started
+2025-11-07 15:47:37,757 DEBUG httpcore.connection close.complete
+2025-11-07 15:47:43,730 DEBUG httpcore.connection close.complete
+2025-11-07 15:47:50,038 DEBUG httpcore.connection close.complete
+2025-11-07 15:47:56,643 DEBUG httpcore.connection close.complete
+2025-11-07 16:00:50,469 INFO icarus ICARUS BOUNTY SCANNER STARTED | BASE_DIR=/root/icarus-bounty-scanner
+2025-11-07 16:00:50,472 INFO icarus Config loaded successfully
+2025-11-07 16:00:50,474 INFO icarus.cache Downloading cloud_providers.json...
+2025-11-07 16:00:50,521 DEBUG httpcore.connection connect_tcp.started host='raw.githubusercontent.com' port=443 local_address=None timeout=30.0 socket_options=None
+2025-11-07 16:00:50,524 DEBUG httpcore.connection connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ff7fcf85460>
+2025-11-07 16:00:50,524 DEBUG httpcore.connection start_tls.started ssl_context=<ssl.SSLContext object at 0x7ff7fcf1fe50> server_hostname='raw.githubusercontent.com' timeout=30.0
+2025-11-07 16:00:50,527 DEBUG httpcore.connection start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ff7fd2b90d0>
+2025-11-07 16:00:50,528 DEBUG httpcore.http11 send_request_headers.started request=<Request [b'GET']>
+2025-11-07 16:00:50,528 DEBUG httpcore.http11 send_request_headers.complete
+2025-11-07 16:00:50,528 DEBUG httpcore.http11 send_request_body.started request=<Request [b'GET']>
+2025-11-07 16:00:50,528 DEBUG httpcore.http11 send_request_body.complete
+2025-11-07 16:00:50,528 DEBUG httpcore.http11 receive_response_headers.started request=<Request [b'GET']>
+2025-11-07 16:00:50,672 DEBUG httpcore.http11 receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Connection', b'keep-alive'), (b'Content-Length', b'125724'), (b'Cache-Control', b'max-age=300'), (b'Content-Security-Policy', b"default-src 'none'; style-src 'unsafe-inline'; sandbox"), (b'Content-Type', b'text/plain; charset=utf-8'), (b'ETag', b'W/"e2694b3bf0e6eeac22be1f92b10b99f7a7f43205f9a843451d3539a6932ad937"'), (b'Strict-Transport-Security', b'max-age=31536000'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'deny'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-GitHub-Request-Id', b'778F:1CDA22:40C86E:475EC9:690E0688'), (b'Content-Encoding', b'gzip'), (b'Accept-Ranges', b'bytes'), (b'Date', b'Fri, 07 Nov 2025 15:00:50 GMT'), (b'Via', b'1.1 varnish'), (b'X-Served-By', b'cache-stl760053-STL'), (b'X-Cache', b'HIT'), (b'X-Cache-Hits', b'0'), (b'X-Timer', b'S1762527651.530917,VS0,VE142'), (b'Vary', b'Authorization,Accept-Encoding'), (b'Access-Control-Allow-Origin', b'*'), (b'Cross-Origin-Resource-Policy', b'cross-origin'), (b'X-Fastly-Request-ID', b'b982a7a0cb6b36aec97835cffead628f1b58bbf9'), (b'Expires', b'Fri, 07 Nov 2025 15:05:50 GMT'), (b'Source-Age', b'0')])
+2025-11-07 16:00:50,672 INFO httpx HTTP Request: GET https://raw.githubusercontent.com/blacklanternsecurity/cloudcheck/master/cloud_providers.json "HTTP/1.1 200 OK"
+2025-11-07 16:00:50,673 DEBUG httpcore.http11 receive_response_body.started request=<Request [b'GET']>
+2025-11-07 16:00:50,676 DEBUG httpcore.http11 receive_response_body.complete
+2025-11-07 16:00:50,676 DEBUG httpcore.http11 response_closed.started
+2025-11-07 16:00:50,676 DEBUG httpcore.http11 response_closed.complete
+2025-11-07 16:00:50,680 DEBUG httpcore.connection close.started
+2025-11-07 16:00:50,680 DEBUG httpcore.connection close.complete
+2025-11-07 16:00:50,680 INFO icarus.cache cloud_providers.json cached successfully
+2025-11-07 16:00:50,680 INFO icarus BBOT cloudcheck using: /app/cache/cloud_providers.json
+2025-11-07 16:00:50,701 INFO src.scanner.loader MANUAL RUN: Using manual_targets from config
+2025-11-07 16:00:50,701 INFO icarus Starting scan batch for 3 programs
+2025-11-07 16:00:51,355 INFO icarus.bbot [test-small] Starting scan on 1 target(s) @ 5.0 RPS
+2025-11-07 16:00:51,378 HUGEINFO bbot.scanner Scan seeded with 1 targets (1 in whitelist)
+2025-11-07 16:00:51,379 WARNING bbot.scanner No scan modules to load
+2025-11-07 16:00:51,385 DEBUG filelock Attempting to acquire lock 140702977889568 on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2025-11-07 16:00:51,385 DEBUG filelock Lock 140702977889568 acquired on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2025-11-07 16:00:51,387 DEBUG filelock Attempting to release lock 140702977889568 on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2025-11-07 16:00:51,387 DEBUG filelock Lock 140702977889568 released on /root/.cache/python-tldextract/3.12.3.final__.venv__0ee5fc__tldextract-5.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2025-11-07 16:00:51,430 INFO bbot.scanner Loaded 6/6 internal modules (aggregate,cloudcheck,dnsresolve,excavate,speculate,unarchive)
+2025-11-07 16:00:51,431 INFO bbot.scanner Loaded 4/4 output modules, (csv,json,python,txt)
+2025-11-07 16:00:51,795 INFO icarus.bbot [test-small] Starting scan on 1 target(s) @ 5.0 RPS
+2025-11-07 16:00:51,817 HUGEINFO bbot.scanner Scan seeded with 1 targets (1 in whitelist)
+2025-11-07 16:00:51,817 WARNING bbot.scanner No scan modules to load
+2025-11-07 16:00:51,844 INFO bbot.scanner Loaded 6/6 internal modules (aggregate,cloudcheck,dnsresolve,excavate,speculate,unarchive)
+2025-11-07 16:00:51,846 INFO bbot.scanner Loaded 4/4 output modules, (csv,json,python,txt)
+2025-11-07 16:00:52,304 INFO icarus.bbot [test-medium] Starting scan on 1 target(s) @ 5.0 RPS
+2025-11-07 16:00:52,326 HUGEINFO bbot.scanner Scan seeded with 1 targets (1 in whitelist)
+2025-11-07 16:00:52,327 WARNING bbot.scanner No scan modules to load
+2025-11-07 16:00:52,350 INFO bbot.scanner Loaded 6/6 internal modules (aggregate,cloudcheck,dnsresolve,excavate,speculate,unarchive)
+2025-11-07 16:00:52,352 INFO bbot.scanner Loaded 4/4 output modules, (csv,json,python,txt)
+2025-11-07 16:00:52,721 INFO icarus.bbot [test-medium] Starting scan on 1 target(s) @ 5.0 RPS
+2025-11-07 16:00:52,745 HUGEINFO bbot.scanner Scan seeded with 1 targets (1 in whitelist)
+2025-11-07 16:00:52,746 WARNING bbot.scanner No scan modules to load
+2025-11-07 16:00:52,776 INFO bbot.scanner Loaded 6/6 internal modules (aggregate,cloudcheck,dnsresolve,excavate,speculate,unarchive)
+2025-11-07 16:00:52,778 INFO bbot.scanner Loaded 4/4 output modules, (csv,json,python,txt)
+2025-11-07 16:00:53,176 INFO icarus.bbot [test-nuclei] Starting scan on 1 target(s) @ 5.0 RPS
+2025-11-07 16:00:53,199 HUGEINFO bbot.scanner Scan seeded with 1 targets (1 in whitelist)
+2025-11-07 16:00:53,199 WARNING bbot.scanner No scan modules to load
+2025-11-07 16:00:53,220 INFO bbot.scanner Loaded 6/6 internal modules (aggregate,cloudcheck,dnsresolve,excavate,speculate,unarchive)
+2025-11-07 16:00:53,222 INFO bbot.scanner Loaded 4/4 output modules, (csv,json,python,txt)
+2025-11-07 16:00:56,452 INFO bbot.modules.internal.speculate No portscanner enabled. Assuming open ports: 80, 443
+2025-11-07 16:00:56,469 INFO bbot.modules.internal.speculate No portscanner enabled. Assuming open ports: 80, 443
+2025-11-07 16:00:56,488 INFO bbot.modules.internal.speculate No portscanner enabled. Assuming open ports: 80, 443
+2025-11-07 16:00:56,513 INFO bbot.modules.internal.speculate No portscanner enabled. Assuming open ports: 80, 443
+2025-11-07 16:00:56,530 INFO bbot.modules.internal.speculate No portscanner enabled. Assuming open ports: 80, 443
+2025-11-07 16:00:56,531 SUCCESS bbot.scanner Setup succeeded for 12/12 modules.
+2025-11-07 16:00:56,532 TRACE bbot.scanner Ran BBOT v2.7.2 at 2025-11-07 16:00:51.355579, command: /root/icarus-bounty-scanner/src/main.py
+2025-11-07 16:00:56,532 TRACE bbot.scanner Target: {'seeds': ['bugbountytargets.com'], 'whitelist': ['bugbountytargets.com'], 'blacklist': [], 'strict_scope': False, 'hash': '51d6de688ebff060f25f52a1cc52d6595c1e9f12', 'seed_hash': 'ce27ebde6d7a9c6c93f8cd36d40f689504bcb3d8', 'whitelist_hash': 'ce27ebde6d7a9c6c93f8cd36d40f689504bcb3d8', 'blacklist_hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'scope_hash': '858a14649dfa64b21e5f3b192347504c5ff28c23'}
+2025-11-07 16:00:56,533 TRACE bbot.scanner Preset: {'description': 'liquid_olivia', 'config': {'scan': {'max_threads': 200, 'scope': {'report_distance': 1, 'search_distance': 2}, 'dedup_distance': '24h'}, 'http': {'threads': 120, 'timeout': 12, 'retries': 2, 'delay': 0.3, 'random_delay': 0.8, 'user_agent_rotate': True, 'headers': {'x-bug-bounty': 'h1/icarus-_-'}}, 'modules': {'unarchive': {'enabled': False}, 'nuclei': {'templates': ['cves/', 'generic-detect/', 'subdomain-takeover/', 'exposures/', 'vulnerabilities/'], 'severity': ['high', 'critical'], 'concurrency': 25, 'rate_limit': 5, 'delay': 0.2, 'random_delay': 0.6, 'budget_mode': True, 'retries': 2, 'bulk-size': 25}, 'nmap': {'args': '--top-ports 100 -T4 --min-rate 300 --max-rate 600 --min-parallelism 100'}, 'ffuf_shortnames': {'module_timeout': 300}, 'httpx': {}, 'subdomain': {}}, 'targets': ['bugbountytargets.com'], 'output_modules': ['json'], 'scope_netloc': True, 'max_events': 100000, 'concurrency': 50, 'respect_http_schemes': True, 'user_agent': 'Icarus-Bounty-Scanner/2.7.3 (H1-Compliant; +https://github.com/yourname/icarus)', 'http_proxy': None, 'timeout': 15, 'rate_limit': 5.0, 'rate_limit_scope': 'global'}}
+2025-11-07 16:00:56,533 HUGESUCCESS bbot.scanner Starting scan liquid_olivia
+2025-11-07 16:00:56,564 SUCCESS bbot.scanner Setup succeeded for 12/12 modules.
+2025-11-07 16:00:56,566 TRACE bbot.scanner Ran BBOT v2.7.2 at 2025-11-07 16:00:51.795849, command: /root/icarus-bounty-scanner/src/main.py
+2025-11-07 16:00:56,566 TRACE bbot.scanner Target: {'seeds': ['scanme.nmap.org'], 'whitelist': ['scanme.nmap.org'], 'blacklist': [], 'strict_scope': False, 'hash': 'f73875b405aa98aad307d5ccaa305e904450e6ae', 'seed_hash': '2823ff071eea25fff3b9af8f424619f3fe01a422', 'whitelist_hash': '2823ff071eea25fff3b9af8f424619f3fe01a422', 'blacklist_hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'scope_hash': '5280141651dbddc9f194de8f35075acb99af154e'}
+2025-11-07 16:00:56,567 TRACE bbot.scanner Preset: {'description': 'unmedicated_curtis', 'config': {'scan': {'max_threads': 200, 'scope': {'report_distance': 1, 'search_distance': 2}, 'dedup_distance': '24h'}, 'http': {'threads': 120, 'timeout': 12, 'retries': 2, 'delay': 0.3, 'random_delay': 0.8, 'user_agent_rotate': True, 'headers': {'x-bug-bounty': 'h1/icarus-_-'}}, 'modules': {'unarchive': {'enabled': False}, 'nuclei': {'templates': ['cves/', 'generic-detect/', 'subdomain-takeover/', 'exposures/', 'vulnerabilities/'], 'severity': ['high', 'critical'], 'concurrency': 25, 'rate_limit': 5, 'delay': 0.2, 'random_delay': 0.6, 'budget_mode': True, 'retries': 2, 'bulk-size': 25}, 'nmap': {'args': '--top-ports 100 -T4 --min-rate 300 --max-rate 600 --min-parallelism 100'}, 'ffuf_shortnames': {'module_timeout': 300}, 'httpx': {}, 'subdomain': {}}, 'targets': ['scanme.nmap.org'], 'output_modules': ['json'], 'scope_netloc': True, 'max_events': 100000, 'concurrency': 50, 'respect_http_schemes': True, 'user_agent': 'Icarus-Bounty-Scanner/2.7.3 (H1-Compliant; +https://github.com/yourname/icarus)', 'http_proxy': None, 'timeout': 15, 'rate_limit': 5.0, 'rate_limit_scope': 'global'}}
+2025-11-07 16:00:56,567 HUGESUCCESS bbot.scanner Starting scan unmedicated_curtis
+2025-11-07 16:00:56,585 SUCCESS bbot.scanner Setup succeeded for 12/12 modules.
+2025-11-07 16:00:56,586 TRACE bbot.scanner Ran BBOT v2.7.2 at 2025-11-07 16:00:52.304847, command: /root/icarus-bounty-scanner/src/main.py
+2025-11-07 16:00:56,586 TRACE bbot.scanner Target: {'seeds': ['hackerone.com'], 'whitelist': ['hackerone.com'], 'blacklist': [], 'strict_scope': False, 'hash': 'e6331e304e1761d8e343aad50c6728579722dff6', 'seed_hash': 'f9f45c9cdf20bdfde9790459f06f95910b6c67b2', 'whitelist_hash': 'f9f45c9cdf20bdfde9790459f06f95910b6c67b2', 'blacklist_hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'scope_hash': '29ebc15e5a7e5a1b56b4da5329893f2b5ae804e7'}
+2025-11-07 16:00:56,588 TRACE bbot.scanner Preset: {'description': 'normal_skywalker', 'config': {'scan': {'max_threads': 200, 'scope': {'report_distance': 1, 'search_distance': 2}, 'dedup_distance': '24h'}, 'http': {'threads': 120, 'timeout': 12, 'retries': 2, 'delay': 0.3, 'random_delay': 0.8, 'user_agent_rotate': True, 'headers': {'x-bug-bounty': 'h1/icarus-_-'}}, 'modules': {'unarchive': {'enabled': False}, 'nuclei': {'templates': ['cves/', 'generic-detect/', 'subdomain-takeover/', 'exposures/', 'vulnerabilities/'], 'severity': ['high', 'critical'], 'concurrency': 25, 'rate_limit': 5, 'delay': 0.2, 'random_delay': 0.6, 'budget_mode': True, 'retries': 2, 'bulk-size': 25}, 'nmap': {'args': '--top-ports 100 -T4 --min-rate 300 --max-rate 600 --min-parallelism 100'}, 'ffuf_shortnames': {'module_timeout': 300}, 'httpx': {}, 'subdomain': {}}, 'targets': ['hackerone.com'], 'output_modules': ['json'], 'scope_netloc': True, 'max_events': 100000, 'concurrency': 50, 'respect_http_schemes': True, 'user_agent': 'Icarus-Bounty-Scanner/2.7.3 (H1-Compliant; +https://github.com/yourname/icarus)', 'http_proxy': None, 'timeout': 15, 'rate_limit': 5.0, 'rate_limit_scope': 'global'}}
+2025-11-07 16:00:56,588 HUGESUCCESS bbot.scanner Starting scan normal_skywalker
+2025-11-07 16:00:56,611 SUCCESS bbot.scanner Setup succeeded for 12/12 modules.
+2025-11-07 16:00:56,613 TRACE bbot.scanner Ran BBOT v2.7.2 at 2025-11-07 16:00:52.721935, command: /root/icarus-bounty-scanner/src/main.py
+2025-11-07 16:00:56,613 TRACE bbot.scanner Target: {'seeds': ['www.hackerone.com'], 'whitelist': ['www.hackerone.com'], 'blacklist': [], 'strict_scope': False, 'hash': '88831b885ff0ff16bb9030676760a85ea7fba8eb', 'seed_hash': '3db37cca1d354feceb3dc7b0e6534a43e293ff54', 'whitelist_hash': '3db37cca1d354feceb3dc7b0e6534a43e293ff54', 'blacklist_hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'scope_hash': 'a71834cce21b760e692afaaf84aba060e9e8bf3d'}
+2025-11-07 16:00:56,613 TRACE bbot.scanner Preset: {'description': 'imaginary_connie', 'config': {'scan': {'max_threads': 200, 'scope': {'report_distance': 1, 'search_distance': 2}, 'dedup_distance': '24h'}, 'http': {'threads': 120, 'timeout': 12, 'retries': 2, 'delay': 0.3, 'random_delay': 0.8, 'user_agent_rotate': True, 'headers': {'x-bug-bounty': 'h1/icarus-_-'}}, 'modules': {'unarchive': {'enabled': False}, 'nuclei': {'templates': ['cves/', 'generic-detect/', 'subdomain-takeover/', 'exposures/', 'vulnerabilities/'], 'severity': ['high', 'critical'], 'concurrency': 25, 'rate_limit': 5, 'delay': 0.2, 'random_delay': 0.6, 'budget_mode': True, 'retries': 2, 'bulk-size': 25}, 'nmap': {'args': '--top-ports 100 -T4 --min-rate 300 --max-rate 600 --min-parallelism 100'}, 'ffuf_shortnames': {'module_timeout': 300}, 'httpx': {}, 'subdomain': {}}, 'targets': ['www.hackerone.com'], 'output_modules': ['json'], 'scope_netloc': True, 'max_events': 100000, 'concurrency': 50, 'respect_http_schemes': True, 'user_agent': 'Icarus-Bounty-Scanner/2.7.3 (H1-Compliant; +https://github.com/yourname/icarus)', 'http_proxy': None, 'timeout': 15, 'rate_limit': 5.0, 'rate_limit_scope': 'global'}}
+2025-11-07 16:00:56,613 HUGESUCCESS bbot.scanner Starting scan imaginary_connie
+2025-11-07 16:00:56,632 SUCCESS bbot.scanner Setup succeeded for 12/12 modules.
+2025-11-07 16:00:56,633 TRACE bbot.scanner Ran BBOT v2.7.2 at 2025-11-07 16:00:53.176208, command: /root/icarus-bounty-scanner/src/main.py
+2025-11-07 16:00:56,633 TRACE bbot.scanner Target: {'seeds': ['httpbin.org'], 'whitelist': ['httpbin.org'], 'blacklist': [], 'strict_scope': False, 'hash': '92585d9455c3dff979b8934a36a341e4a9db631b', 'seed_hash': '69cb66da8dca7f69f47d482c6a9899404d81ee4e', 'whitelist_hash': '69cb66da8dca7f69f47d482c6a9899404d81ee4e', 'blacklist_hash': 'da39a3ee5e6b4b0d3255bfef95601890afd80709', 'scope_hash': '8703573a9aeb1aa99bef7f10ea77683a4d02e1fd'}
+2025-11-07 16:00:56,634 TRACE bbot.scanner Preset: {'description': 'malevolent_jordan', 'config': {'scan': {'max_threads': 200, 'scope': {'report_distance': 1, 'search_distance': 2}, 'dedup_distance': '24h'}, 'http': {'threads': 120, 'timeout': 12, 'retries': 2, 'delay': 0.3, 'random_delay': 0.8, 'user_agent_rotate': True, 'headers': {'x-bug-bounty': 'h1/icarus-_-'}}, 'modules': {'unarchive': {'enabled': False}, 'nuclei': {'templates': ['cves/', 'generic-detect/', 'subdomain-takeover/', 'exposures/', 'vulnerabilities/'], 'severity': ['high', 'critical'], 'concurrency': 25, 'rate_limit': 5, 'delay': 0.2, 'random_delay': 0.6, 'budget_mode': True, 'retries': 2, 'bulk-size': 25}, 'nmap': {'args': '--top-ports 100 -T4 --min-rate 300 --max-rate 600 --min-parallelism 100'}, 'ffuf_shortnames': {'module_timeout': 300}, 'httpx': {}, 'subdomain': {}}, 'targets': ['httpbin.org'], 'output_modules': ['json'], 'scope_netloc': True, 'max_events': 100000, 'concurrency': 50, 'respect_http_schemes': True, 'user_agent': 'Icarus-Bounty-Scanner/2.7.3 (H1-Compliant; +https://github.com/yourname/icarus)', 'http_proxy': None, 'timeout': 15, 'rate_limit': 5.0, 'rate_limit_scope': 'global'}}
+2025-11-07 16:00:56,635 HUGESUCCESS bbot.scanner Starting scan malevolent_jordan
+2025-11-07 16:01:04,721 INFO icarus Shutdown signal received. Cancelling all tasks...
+2025-11-07 16:01:04,738 HUGEWARNING bbot.scanner Aborting scan
+2025-11-07 16:01:04,739 TRACE bbot.scanner Traceback (most recent call last):
+  File "/root/icarus-bounty-scanner/.venv/lib/python3.12/site-packages/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-11-07 16:01:04,740 TRACE bbot.scanner Traceback (most recent call last):
+  File "/root/icarus-bounty-scanner/.venv/lib/python3.12/site-packages/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-11-07 16:01:04,762 HUGEWARNING bbot.scanner Aborting scan
+2025-11-07 16:01:04,763 TRACE bbot.scanner Traceback (most recent call last):
+  File "/root/icarus-bounty-scanner/.venv/lib/python3.12/site-packages/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-11-07 16:01:04,763 TRACE bbot.scanner Traceback (most recent call last):
+  File "/root/icarus-bounty-scanner/.venv/lib/python3.12/site-packages/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-11-07 16:01:04,775 HUGEWARNING bbot.scanner Aborting scan
+2025-11-07 16:01:04,776 TRACE bbot.scanner Traceback (most recent call last):
+  File "/root/icarus-bounty-scanner/.venv/lib/python3.12/site-packages/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-11-07 16:01:04,776 TRACE bbot.scanner Traceback (most recent call last):
+  File "/root/icarus-bounty-scanner/.venv/lib/python3.12/site-packages/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-11-07 16:01:04,787 HUGEWARNING bbot.scanner Aborting scan
+2025-11-07 16:01:04,788 TRACE bbot.scanner Traceback (most recent call last):
+  File "/root/icarus-bounty-scanner/.venv/lib/python3.12/site-packages/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-11-07 16:01:04,788 TRACE bbot.scanner Traceback (most recent call last):
+  File "/root/icarus-bounty-scanner/.venv/lib/python3.12/site-packages/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-11-07 16:01:04,801 HUGEWARNING bbot.scanner Aborting scan
+2025-11-07 16:01:04,801 TRACE bbot.scanner Traceback (most recent call last):
+  File "/root/icarus-bounty-scanner/.venv/lib/python3.12/site-packages/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-11-07 16:01:04,802 TRACE bbot.scanner Traceback (most recent call last):
+  File "/root/icarus-bounty-scanner/.venv/lib/python3.12/site-packages/bbot/scanner/scanner.py", line 408, in async_start
+    await asyncio.sleep(0.1)
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+2025-11-07 16:01:04,824 TRACE bbot.modules.dnsresolve Worker stopped
+2025-11-07 16:01:04,825 TRACE bbot.modules.dnsresolve Worker stopped
+2025-11-07 16:01:04,825 TRACE bbot.modules.dnsresolve Worker stopped
+2025-11-07 16:01:04,826 TRACE bbot.modules.dnsresolve Worker stopped
+2025-11-07 16:01:04,826 TRACE bbot.modules.dnsresolve Worker stopped
+2025-11-07 16:01:04,829 INFO bbot.modules.aggregate +------------+------------+----------------+
+2025-11-07 16:01:04,830 INFO bbot.modules.aggregate | Module     | Produced   | Consumed       |
+2025-11-07 16:01:04,830 INFO bbot.modules.aggregate +============+============+================+
+2025-11-07 16:01:04,830 INFO bbot.modules.aggregate | dnsresolve | 0          | 1 (1 DNS_NAME) |
+2025-11-07 16:01:04,830 INFO bbot.modules.aggregate +------------+------------+----------------+
+2025-11-07 16:01:04,831 INFO bbot.modules.output.csv Saved CSV output to /root/.bbot/scans/imaginary_connie/output.csv
+2025-11-07 16:01:04,831 INFO bbot.modules.output.json Saved JSON output to /root/.bbot/scans/imaginary_connie/output.json
+2025-11-07 16:01:04,831 INFO bbot.modules.output.txt Saved TXT output to /root/.bbot/scans/imaginary_connie/output.txt
+2025-11-07 16:01:04,833 INFO bbot.modules.aggregate +------------+------------+----------------+
+2025-11-07 16:01:04,833 INFO bbot.modules.aggregate | Module     | Produced   | Consumed       |
+2025-11-07 16:01:04,833 INFO bbot.modules.aggregate +============+============+================+
+2025-11-07 16:01:04,833 INFO bbot.modules.aggregate | dnsresolve | 0          | 1 (1 DNS_NAME) |
+2025-11-07 16:01:04,833 INFO bbot.modules.aggregate +------------+------------+----------------+
+2025-11-07 16:01:04,834 INFO bbot.modules.output.csv Saved CSV output to /root/.bbot/scans/malevolent_jordan/output.csv
+2025-11-07 16:01:04,834 INFO bbot.modules.output.json Saved JSON output to /root/.bbot/scans/malevolent_jordan/output.json
+2025-11-07 16:01:04,834 INFO bbot.modules.output.txt Saved TXT output to /root/.bbot/scans/malevolent_jordan/output.txt
+2025-11-07 16:01:04,835 INFO bbot.modules.aggregate +------------+------------+----------------+
+2025-11-07 16:01:04,835 INFO bbot.modules.aggregate | Module     | Produced   | Consumed       |
+2025-11-07 16:01:04,836 INFO bbot.modules.aggregate +============+============+================+
+2025-11-07 16:01:04,836 INFO bbot.modules.aggregate | dnsresolve | 0          | 1 (1 DNS_NAME) |
+2025-11-07 16:01:04,836 INFO bbot.modules.aggregate +------------+------------+----------------+
+2025-11-07 16:01:04,836 INFO bbot.modules.output.csv Saved CSV output to /root/.bbot/scans/unmedicated_curtis/output.csv
+2025-11-07 16:01:04,837 INFO bbot.modules.output.json Saved JSON output to /root/.bbot/scans/unmedicated_curtis/output.json
+2025-11-07 16:01:04,837 INFO bbot.modules.output.txt Saved TXT output to /root/.bbot/scans/unmedicated_curtis/output.txt
+2025-11-07 16:01:04,839 INFO bbot.modules.aggregate +------------+------------+----------------+
+2025-11-07 16:01:04,839 INFO bbot.modules.aggregate | Module     | Produced   | Consumed       |
+2025-11-07 16:01:04,839 INFO bbot.modules.aggregate +============+============+================+
+2025-11-07 16:01:04,840 INFO bbot.modules.aggregate | dnsresolve | 0          | 1 (1 DNS_NAME) |
+2025-11-07 16:01:04,840 INFO bbot.modules.aggregate +------------+------------+----------------+
+2025-11-07 16:01:04,841 INFO bbot.modules.output.csv Saved CSV output to /root/.bbot/scans/liquid_olivia/output.csv
+2025-11-07 16:01:04,842 INFO bbot.modules.output.json Saved JSON output to /root/.bbot/scans/liquid_olivia/output.json
+2025-11-07 16:01:04,842 INFO bbot.modules.output.txt Saved TXT output to /root/.bbot/scans/liquid_olivia/output.txt
+2025-11-07 16:01:04,844 INFO bbot.modules.aggregate +------------+------------+----------------+
+2025-11-07 16:01:04,844 INFO bbot.modules.aggregate | Module     | Produced   | Consumed       |
+2025-11-07 16:01:04,844 INFO bbot.modules.aggregate +============+============+================+
+2025-11-07 16:01:04,844 INFO bbot.modules.aggregate | dnsresolve | 0          | 1 (1 DNS_NAME) |
+2025-11-07 16:01:04,844 INFO bbot.modules.aggregate +------------+------------+----------------+
+2025-11-07 16:01:04,845 INFO bbot.modules.output.csv Saved CSV output to /root/.bbot/scans/normal_skywalker/output.csv
+2025-11-07 16:01:04,845 INFO bbot.modules.output.json Saved JSON output to /root/.bbot/scans/normal_skywalker/output.json
+2025-11-07 16:01:04,845 INFO bbot.modules.output.txt Saved TXT output to /root/.bbot/scans/normal_skywalker/output.txt
+2025-11-07 16:01:05,352 ERROR icarus.bbot [test-medium] Error during scanner.stop(): object NoneType can't be used in 'await' expression
+2025-11-07 16:01:05,357 ERROR icarus.bbot [test-nuclei] Error during scanner.stop(): object NoneType can't be used in 'await' expression
+2025-11-07 16:01:05,362 ERROR icarus.bbot [test-small] Error during scanner.stop(): object NoneType can't be used in 'await' expression
+2025-11-07 16:01:05,367 ERROR icarus.bbot [test-small] Error during scanner.stop(): object NoneType can't be used in 'await' expression
+2025-11-07 16:01:05,371 ERROR icarus.bbot [test-medium] Error during scanner.stop(): object NoneType can't be used in 'await' expression
+2025-11-07 16:01:05,376 INFO icarus Graceful shutdown complete.

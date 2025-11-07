@@ -1,0 +1,86 @@
+# ==============================
+# GLOBAL
+# ==============================
+debug: false
+dry_run: false                     # Set to false for live H1 targets
+manual_run: true                  # <--- SET TO true FOR TESTING
+
+# ==============================
+# MANUAL TEST TARGETS (only used if manual_run: true)
+# ==============================
+manual_targets:
+  - program: "test-small"
+    assets:
+      - "bugbountytargets.com"
+      - "scanme.nmap.org"
+    rps: 5
+
+  - program: "test-medium"
+    assets:
+      - "hackerone.com"
+      - "www.hackerone.com"
+    rps: 10
+
+  - program: "test-nuclei"
+    assets:
+      - "httpbin.org"
+    rps: 5
+
+# ==============================
+# H1 DATA SOURCE
+# ==============================
+h1_json_url: "https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/refs/heads/main/data/hackerone_data.json"
+
+# ==============================
+# CONCURRENCY & RESOURCES
+# ==============================
+max_concurrent_scans: 8           # 1 per vCPU
+max_events_per_scan: 100000
+max_memory_mb: 22000              # Leave ~2 GB for OS
+
+bbot_concurrency: 50
+scan_timeout_seconds: 1800
+
+# ==============================
+# THROTTLING (per program)
+# ==============================
+default_rps: 5
+program_overrides:
+  "uber": { rps: 10, delay_jitter: 0.2 }
+
+# ==============================
+# SCAN LIMITS
+# ==============================
+daily_scan_limit_per_program: 3
+min_hours_between_scans: 4
+
+# ==============================
+# NUCLEI
+# ==============================
+nuclei_templates: "cves/,generic-detect/,subdomain-takeover/,exposures/,vulnerabilities/"
+nuclei_concurrency: 25
+nuclei_rate_limit: 50
+
+# ==============================
+# FILTERING (signal/noise)
+# ==============================
+min_severity: "high"
+payable_tags:
+  - "rce"
+  - "sqli"
+  - "ssrf"
+  - "idor"
+  - "lfi"
+  - "open-redirect"
+
+# ==============================
+# ALERTS
+# ==============================
+ntfy_server: "https://ntfy.sh"
+ntfy_topic: "icarus_bounty_alerts"
+
+# ==============================
+# OUTPUT
+# ==============================
+report_template: "templates/report.md.j2"
+screenshot: true

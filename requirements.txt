@@ -1,0 +1,6 @@
+bbot==2.7.2
+aiohttp>=3.9
+aiolimiter>=1.1
+pyyaml>=6.0
+jinja2>=3.1
+httpx[http2]>=0.27

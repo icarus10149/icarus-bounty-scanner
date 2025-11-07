@@ -1,0 +1,20 @@
+# docker-compose.yml
+services:
+  scanner:
+    build: .
+    container_name: icarus-bounty
+    restart: unless-stopped
+    volumes:
+      - ./config:/app/config
+      - ./output:/app/output
+      - ./logs:/app/logs
+      - ./templates:/app/templates
+    environment:
+      - DEBUG=false   # Set to "true" for verbose logs
+    deploy:
+      resources:
+        limits:
+          cpus: "7.5"
+          memory: 22G
+    # Optional: auto-restart on config change (great for dev)
+    # profiles: ["production"]

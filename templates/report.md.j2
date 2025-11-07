@@ -1,0 +1,24 @@
+# {{ severity }} in {{ program }}
+
+**URL:** {{ url }}
+
+**Discovered:** {{ timestamp }}
+
+## Description
+{{ description | trim }}
+
+## Proof of Concept
+{% if poc %}
+![PoC]({{ poc }})
+{% else %}
+No screenshot captured.
+{% endif %}
+
+## Impact
+High impact – potential for unauthorized access / data leakage.
+
+## Remediation
+Apply latest patches; validate input; enable CSP.
+
+---
+*Reported via Icarus-Bounty-Scanner – submit-ready*
